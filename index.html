@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="fundoFrames">
+
+        <div class="containers">
+
+            <div class="containerLogin">
+
+                <p class="titleLogin">Fazer Login</p>
+
+
+
+                    <div class="fundoInput">
+                      <img class="imageMail" src="images/email.png" alt="">  <input class="inputsLogin" type="email" placeholder="Digite seu email">
+                    </div>
+                    
+
+
+                    <div class="fundoInput2">
+                        <img class="imageMail" src="images/secured-lock.png" alt="">  <input class="inputsLogin" type="password" placeholder="Digite sua senha">
+                      </div>
+
+                      <p class="forgotPassword">Esqueceu sua senha?</p>
+
+                <button class="btnLogin">Login</button>
+
+            </div>
+
+            <div class="containerCadastro">
+
+                <p class="titleCadastro">Criar sua conta</p>
+
+
+
+                    <div class="fundoInput3">
+                      <img class="imageMail" src="images/user.png" alt="">  <input class="inputsCadastro" type="email" placeholder="Digite seu nome completo">
+                    </div>
+
+                    <div class="fundoInput4">
+                        <img class="imageMail" src="images/email.png" alt="">  <input class="inputsCadastro" type="email" placeholder="Digite seu email">
+                      </div>
+                    
+
+
+                    <div class="fundoInput5">
+                        <img class="imageMail" src="images/secured-lock.png" alt="">  <input class="inputsCadastro" type="password" placeholder="Digite sua senha">
+                      </div>
+
+                      <div class="fundoInput6">
+                        <img class="imageMail" src="images/secured-lock.png" alt="">  <input class="inputsCadastro" type="password" placeholder="Confirme sua senha">
+                      </div>
+
+                      <div class="termos">
+                        <input type="checkbox" class="checkBox" name="" id=""><p class="termosLabel">Concordo com os Termos e condições</p>
+                      </div>
+                      
+
+                <button class="btnCadastro">Criar conta</button>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div id="superiorFrame" class="frameSuperior">
+            
+            <div class="criarContaDisplay" id="CriarDisplay">
+                <h1 class="titleDisplay">Não Possui uma conta?</h1>
+                <p class="botaoDisplay" onclick="cadastro()">Crie agora</p>
+            </div>
+            <div class="criarContaDisplay" id="logarDisplay">
+                <h1 class="titleDisplay">Já tem uma conta?</h1>
+                <p class="botaoDisplay" onclick="login()">Faça login</p>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
