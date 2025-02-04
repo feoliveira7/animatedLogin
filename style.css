@@ -68,7 +68,7 @@ POPPINS
     position: absolute;
     width: 400px;
     height: 400px;
-    background-image: url(/images/backgroundTampa.jpg);
+    background-image: url(../images/backgroundTampa.jpg);
     transition: margin-left 0.5s ;
     border-radius: 40px;
     margin-left: 400px;
